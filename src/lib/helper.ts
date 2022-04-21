@@ -27,6 +27,7 @@ export const lifecycleNameMap: Map<string, string | undefined> = new Map([
   ['errorCaptured', 'onErrorCaptured'],
   ['renderTracked', 'onRenderTracked'],
   ['renderTriggered', 'onRenderTriggered'],
+  ['activated', 'onActivated'],
 ])
 
 export const nonNull = <T>(item: T): item is NonNullable<T> => item != null
